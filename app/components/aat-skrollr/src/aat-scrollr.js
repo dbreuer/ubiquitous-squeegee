@@ -9,6 +9,9 @@
 
 function AATSkrollrController() {
     console.log("Angular you fckr");
+    angular.element(window).ready(function() {
+        document.body.setAttribute("class", "loaded");
+    });
 }
 
 
@@ -41,3 +44,5 @@ angular
             }});
     }])
     .controller('AATSkrollrController', AATSkrollrController);
+
+
