@@ -1,0 +1,48 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.7
+4 verbose readDependencies loading dependencies from /Users/davidwestbury/Downloads/angular-with-skrollr/package.json
+5 warn package.json angular-with-skrollr@1.0.0 No README data
+6 verbose install where, deps [ '/Users/davidwestbury/Downloads/angular-with-skrollr', [] ]
+7 verbose install where, peers [ '/Users/davidwestbury/Downloads/angular-with-skrollr', [] ]
+8 verbose installManyTop reading for lifecycle /Users/davidwestbury/Downloads/angular-with-skrollr/package.json
+9 info preinstall angular-with-skrollr@1.0.0
+10 verbose readDependencies loading dependencies from /Users/davidwestbury/Downloads/angular-with-skrollr/package.json
+11 silly install resolved []
+12 info build /Users/davidwestbury/Downloads/angular-with-skrollr
+13 info linkStuff angular-with-skrollr@1.0.0
+14 silly linkStuff angular-with-skrollr@1.0.0 has /Users/davidwestbury/Downloads as its parent node_modules
+15 verbose linkBins angular-with-skrollr@1.0.0
+16 verbose linkMans angular-with-skrollr@1.0.0
+17 verbose rebuildBundles angular-with-skrollr@1.0.0
+18 info install angular-with-skrollr@1.0.0
+19 info postinstall angular-with-skrollr@1.0.0
+20 verbose unsafe-perm in lifecycle true
+21 info angular-with-skrollr@1.0.0 Failed to exec postinstall script
+22 verbose stack Error: angular-with-skrollr@1.0.0 postinstall: `bower install`
+22 verbose stack Exit status 1
+22 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:213:16)
+22 verbose stack     at EventEmitter.emit (events.js:110:17)
+22 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+22 verbose stack     at ChildProcess.emit (events.js:110:17)
+22 verbose stack     at maybeClose (child_process.js:1015:16)
+22 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1087:5)
+23 verbose pkgid angular-with-skrollr@1.0.0
+24 verbose cwd /Users/davidwestbury/Downloads/angular-with-skrollr
+25 error Darwin 14.5.0
+26 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+27 error node v0.12.7
+28 error npm  v2.11.3
+29 error code ELIFECYCLE
+30 error angular-with-skrollr@1.0.0 postinstall: `bower install`
+30 error Exit status 1
+31 error Failed at the angular-with-skrollr@1.0.0 postinstall script 'bower install'.
+31 error This is most likely a problem with the angular-with-skrollr package,
+31 error not with npm itself.
+31 error Tell the author that this fails on your system:
+31 error     bower install
+31 error You can get their info via:
+31 error     npm owner ls angular-with-skrollr
+31 error There is likely additional logging output above.
+32 verbose exit [ 1, true ]

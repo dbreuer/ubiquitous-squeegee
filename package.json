@@ -1,0 +1,31 @@
+{
+  "name": "angular-with-skrollr",
+  "version": "1.0.0",
+  "description": "Angular Js with Skrollr Paralax framwork",
+  "main": "app.js",
+  "scripts": {
+    "test": "grunt test",
+    "postinstall": "bower install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dbreuer/ubiquitous-squeegee.git"
+  },
+  "keywords": [
+    "angular",
+    "js",
+    "skrollr",
+    "paralax",
+    "scroll",
+    "responsive",
+    "mobile",
+    "app",
+    "browser"
+  ],
+  "author": "David Breuer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dbreuer/ubiquitous-squeegee/issues"
+  },
+  "homepage": "https://github.com/dbreuer/ubiquitous-squeegee#readme"
+}

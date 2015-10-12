@@ -1,0 +1,41 @@
+{
+  "name": "angular-with-skrollr",
+  "version": "1.0.0",
+  "authors": [
+    "David Breuer <dbreuer83@gmail.com>"
+  ],
+  "description": "Angular Js with Skrollr Paralax framwork",
+  "main": "app.js",
+  "moduleType": [
+    "es6",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "angular",
+    "js",
+    "skrollr",
+    "responsive",
+    "parallax",
+    "scroll",
+    "mobile",
+    "browser"
+  ],
+  "license": "MIT",
+  "homepage": "http://ubiquitous-squeegee.github.io/",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "skrollr": "~0.6.30",
+    "angular-skrollr": "~0.1.4",
+    "angular-route": "~1.4.7"
+  },
+  "devDependencies": {
+    "normalize-css": "normalize.css#~3.0.3"
+  }
+}
