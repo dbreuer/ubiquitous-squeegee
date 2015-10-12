@@ -31,6 +31,13 @@ angular
 
 // 2. initialise skrollr at runtime
     .run(["snSkrollr", function(snSkrollr) {
-        snSkrollr.init();
+        snSkrollr.init({
+            edgeStrategy: 'set',
+            easing: {
+                WTF: Math.random,
+                inverted: function(p) {
+                    return 1-p;
+                }
+            }});
     }])
     .controller('AATSkrollrController', AATSkrollrController);

@@ -6,8 +6,9 @@
     <meta name="fragment" content="!" />
     <base href="/" />
     <title>Skrollr - Angular</title>
-    <link href="components/normalize-css/normalize.css" type="text/css" rel="stylesheet" />
+    <link href="css/fixed-positioning.css" type="text/css" rel="stylesheet" />
     <link href="css/main.css" type="text/css" rel="stylesheet" />
+
 </head>
 <body>
     <div ng-view></div>
@@ -21,5 +22,9 @@
     <script src="components/aat-skrollr/src/aat-scrollr.js"></script>
     <!-- /build -->
     <!-- build:include:e2e ../tests/e2e/scripts.html --><!-- /build -->
+
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="../skrollr-ie/dist/skrollr.ie.min.js"></script>
+    <![endif]-->
 </body>
 </html>
